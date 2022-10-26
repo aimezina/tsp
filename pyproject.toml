@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "TSP"
+version = "0.1.0"
+description = "TSP with ML"
+authors = ["Nikolai Stepanov"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.8"
+pandas = "^1.4.2"
+torch = "^1.11.0"
+sklearn = "^0.0"
+torchvision = "^0.12.0"
+click = "^8.1.3"
+black = "^22.3.0"
+pylint = "^2.13.8"
+
+[tool.poetry.dev-dependencies]
+cookiecutter = "^1.7.3"
+jupyter = "^1.0.0"
+tqdm = "^4.64.0"
+seaborn = "^0.11.2"
+kaggle = "^1.5.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
